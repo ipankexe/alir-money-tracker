@@ -164,12 +164,4 @@ npm run build
 
 ---
 
-## Deploy ke Vercel
 
-1. Push repositori ini ke GitHub.
-2. Buka [Vercel](https://vercel.com) lalu pilih **Add New Project** dan impor repositori ini.
-3. Framework **Next.js** terdeteksi otomatis dan tidak memerlukan environment variable tambahan.
-4. Klik **Deploy**.
-
-### Rencana Upgrade ke Database Cloud (Opsional)
-Karena lapisan penyimpanan dibungkus oleh antarmuka `FinanceRepository` di `src/lib/storage/repository.ts`, migrasi ke Supabase atau PostgreSQL (Prisma/Drizzle) cukup dilakukan dengan membuat adapter baru yang mengimplementasikan `FinanceRepository` tanpa perlu mengubah komponen UI atau logika di `finance-engine.ts`.
