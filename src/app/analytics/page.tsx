@@ -192,14 +192,15 @@ export default function AnalyticsPage() {
                     fontSize: "13px",
                   }}
                 />
-                <Bar dataKey="income" fill="#059669" radius={[4, 4, 0, 0]} maxBarSize={26} />
-                <Bar dataKey="expense" fill="#E11D48" radius={[4, 4, 0, 0]} maxBarSize={26} />
+                <Bar dataKey="income" fill="#059669" radius={[4, 4, 0, 0]} maxBarSize={26} isAnimationActive={false} />
+                <Bar dataKey="expense" fill="#E11D48" radius={[4, 4, 0, 0]} maxBarSize={26} isAnimationActive={false} />
                 <Line
                   type="monotone"
                   dataKey="net"
                   stroke="#2563EB"
                   strokeWidth={2.5}
                   dot={{ r: 3.5, fill: "#2563EB" }}
+                  isAnimationActive={false}
                 />
               </ComposedChart>
             </ResponsiveContainer>
@@ -261,6 +262,7 @@ export default function AnalyticsPage() {
                     fill="#1D4ED8"
                     radius={[4, 4, 0, 0]}
                     maxBarSize={18}
+                    isAnimationActive={false}
                   />
                 </BarChart>
               </ResponsiveContainer>

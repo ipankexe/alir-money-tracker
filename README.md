@@ -8,6 +8,26 @@ Dirancang dengan arsitektur **Local-First + Repository Pattern**, Alir langsung 
 demo app https://alirmoneytracker.vercel.app/
 ---
 
+## Tangkapan Layar
+
+### Dashboard Arus Kas (Desktop)
+![Dashboard Arus Kas Alir](docs/screenshots/dashboard-desktop.png)
+
+### Analitik Mendalam & Anggaran Bulanan
+| Analitik 6 Bulan & Harian | Anggaran Bulanan |
+| :---: | :---: |
+| ![Analitik Mendalam Alir](docs/screenshots/analytics.png) | ![Anggaran Bulanan Alir](docs/screenshots/budgets.png) |
+
+### Riwayat Transaksi & Dompet Digital
+| Riwayat Transaksi | Dompet & Transfer |
+| :---: | :---: |
+| ![Riwayat Transaksi Alir](docs/screenshots/transactions.png) | ![Dompet Digital Alir](docs/screenshots/wallets.png) |
+
+### Tampilan Mobile
+<img src="docs/screenshots/dashboard-mobile.png" alt="Dashboard Mobile Alir" width="320" />
+
+---
+
 ## Fitur Utama
 
 ### 1. Dashboard Arus Kas (`/`)

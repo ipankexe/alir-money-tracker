@@ -110,6 +110,7 @@ export function CashflowTrendChart({ data }: CashflowTrendChartProps) {
                   stroke="#059669"
                   strokeWidth={2.25}
                   fill="url(#alirIncomeGrad)"
+                  isAnimationActive={false}
                 />
                 <Area
                   type="monotone"
@@ -117,6 +118,7 @@ export function CashflowTrendChart({ data }: CashflowTrendChartProps) {
                   stroke="#E11D48"
                   strokeWidth={2.25}
                   fill="url(#alirExpenseGrad)"
+                  isAnimationActive={false}
                 />
               </AreaChart>
             </ResponsiveContainer>

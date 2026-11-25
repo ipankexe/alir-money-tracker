@@ -54,6 +54,7 @@ export function SpendingDonutChart({
                     outerRadius={92}
                     paddingAngle={2}
                     strokeWidth={0}
+                    isAnimationActive={false}
                   >
                     {items.map((entry) => (
                       <Cell key={entry.categoryId} fill={entry.color} />
