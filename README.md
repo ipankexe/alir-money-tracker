@@ -4,7 +4,7 @@
 
 **Alir** adalah aplikasi web pencatat keuangan pribadi berbasis **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, dan **Recharts**. Aplikasi ini membantu pengguna memantau pemasukan, pengeluaran, transfer antar dompet, dan anggaran bulanan dalam Rupiah (IDR) melalui tampilan gabungan gaya neo-banking dan dashboard analitik.
 
-Dirancang dengan arsitektur **Local-First + Repository Pattern**, Alir langsung bisa dicoba tanpa halaman login, langsung memuat dataset demo 3 bulan saat pertama dibuka, dan siap di-deploy gratis ke Vercel.
+Dirancang dengan arsitektur **Local-First + Repository Pattern**, Alir langsung bisa dicoba tanpa halaman login, langsung memuat dataset demo 3 bulan saat pertama dibuka
 demo app https://alirmoneytracker.vercel.app/
 ---
 
